@@ -1,0 +1,98 @@
+* {
+	padding: 0;
+	margin-right: 0;
+}
+
+
+
+nav {
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	overflow: hidden;
+}
+ul {
+	list-style-type: none;
+	padding: 20px;
+	margin: 0;
+	background-color: black;
+}
+
+li {
+	display: inline;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+li a {
+	text-decoration: none;
+	color: lightgrey;
+	padding: 10px 20px;
+
+}
+
+li a:hover {
+  background-color: darkgrey;
+  padding: 10px 20px;
+  color: black;
+}
+
+h1{
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-size: 40px;
+
+
+}
+.container{
+  width: 100%;
+  left:0;
+  height: 750px;
+  background: linear-gradient(
+    to right,
+    #AFC6D5 0%,
+    #AFC6D5 50%,
+    #E4ECF1 50%,
+    #E4ECF1 100%
+  );
+  display: flex;
+
+}
+
+.besedilo {
+	font-size: 25px;
+	position: relative;
+	text-align: justify;
+	font-family: arial;
+	left: 100px;
+	width:85%;
+	line-height: 35px;
+
+}
+.polovica_besedila {
+	font-size: 25px;
+	position: relative;
+	text-align: justify;
+	font-family: arial;
+	left: 100px;
+	width:50%;
+	line-height: 35px;
+}
+
+
+.naslovi{
+	font-size: 40px;
+	font-family: verdana;
+	position: relative;
+	text-align: justify;
+	left: 100px;
+	width:85%;
+	font-weight:bold;
+}
+
+.velike_crke {
+	text-transform: uppercase;
+}
+
